@@ -1,0 +1,97 @@
+header {
+  color: white;
+  background-color: #000000;
+  font-size: 0.7rem;
+  font-weight: 300;
+  padding-left: 3rem;
+  height: 2.8rem;
+}
+
+header img {
+  width: 26px;
+  height: 26px;
+  margin-right: 0.6rem;
+  font-size: 0;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+.logo strong {
+  font-weight: 300;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #a9b1bb;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-bar img {
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.set-icons {
+  display: flex;
+  border: none;
+  justify-content: baseline;
+}
+
+.search-bar {
+  border-radius: 5px;
+  width: 45%;
+  position: relative;
+  background-color: white;
+}
+
+.search-bar input {
+  width: 100%;
+  border: none;
+  padding: 7px;
+  font-size: 1.2rem;
+}
+
+.closing {
+  position: absolute;
+  right: 0;
+}
+
+.road-show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.road-show strong {
+  margin: 5px;
+  font-size: 1.6rem;
+  margin-right: 10px;
+  color: #254fe2;
+}
+
+.profile {
+  padding-right: 1rem;
+  width: 5rem;
+  box-sizing: border-box;
+  color: black;
+  background-color: white;
+  height: 2.8rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.profile img {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+}
+.profile p {
+  position: relative;
+  top: 22px;
+  left: 10px;
+  font-size: 0.7rem;
+  font-weight: 500;
+}

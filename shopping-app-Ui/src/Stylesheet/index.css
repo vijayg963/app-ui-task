@@ -1,0 +1,340 @@
+@import '_reset.scss';
+@import '__header.scss';
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+button {
+  color: white;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #1a1a1a;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.trending {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  margin: 10px 0;
+  padding: 0.3rem 1rem;
+}
+
+.trending p {
+  font-size: 12px;
+  color: gray;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: 500;
+}
+
+.product {
+  padding: 0.5rem;
+  width: 40%;
+  background-color: white;
+}
+
+.ratings {
+  color: #254fe2;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.ratings span {
+  font-size: 0.7rem;
+  color: gray;
+  text-decoration: underline;
+  margin: 0 5px;
+}
+
+.para {
+  font-size: 0.7rem;
+  color: gray;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.s20-fe {
+  width: 338px;
+  height: 363px;
+  box-sizing: border-box;
+  padding: 1rem 0;
+}
+
+.small-img {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid rgb(243, 212, 154);
+}
+
+.product .small-img {
+  padding-bottom: -5px;
+}
+
+.timing-header {
+  position: relative;
+  color: black;
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.timing-header strong {
+  font-weight: 700;
+}
+
+.card {
+  text-align: center;
+  background-color: white;
+  box-sizing: border-box;
+  width: 220px;
+  margin: 2.5px;
+}
+
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.count {
+  position: absolute;
+  left: 15px;
+  top: 22px;
+  font-size: 0.6rem;
+  width: 15px;
+  height: 17px;
+  color: white;
+  border-radius: 50%;
+  background-color: black;
+  text-align: justify;
+}
+
+.trade {
+  padding: 2px 6px;
+  background-color: white;
+  margin: 5px;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px #a7a6a6;
+}
+
+.phone {
+  position: relative;
+  margin-top: -30px;
+}
+
+.heart {
+  position: absolute;
+  right: 3px;
+  top: 35px;
+  border-radius: 50%;
+  padding: 8px 6px 0px 6px;
+  box-shadow: 0 1px 4px #a7a6a6;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+.small {
+  font-size: 10px;
+  background-color: #f5f5f5;
+  display: inline-block;
+}
+
+.price {
+  font-size: 1.1rem;
+  font-weight: 500;
+  position: relative;
+}
+.price span {
+  position: absolute;
+  font-size: 0.6rem;
+  top: -4px;
+}
+
+.circle {
+  margin: 0 auto;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: #254fe2;
+}
+
+.box {
+  padding: 3px 7px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.color {
+  display: flex;
+}
+
+.green {
+  background-color: #b1d8c5;
+}
+
+.condition {
+  margin: 0 2.5px;
+  background-color: white;
+  padding: 0.8rem 0.5rem;
+}
+
+.condition span {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+h5 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin: 0.5rem;
+}
+
+.light {
+  color: lightgray;
+  border: 1px solid lightgray;
+}
+
+.sqr {
+  height: 45px;
+  width: 40px;
+}
+
+.condition .sqr {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.bg-color {
+  background-color: #f5f5f5;
+}
+
+.offer {
+  height: 195px;
+  max-width: 100%;
+  width: 71%;
+  background-color: white;
+  position: relative;
+}
+
+.hr {
+  border-top: 2px solid rgb(218, 210, 210);
+  margin: 2rem auto;
+  width: 360px;
+}
+
+.offer h3 {
+  position: absolute;
+  right: 130px;
+  background-color: white;
+  display: inline-block;
+  top: 0;
+  padding: 1.5rem;
+}
+
+.justify-content {
+  display: flex;
+  justify-content: center;
+  margin: 0 3rem;
+}
+
+.btn {
+  background-color: #254fe2;
+  border-radius: 5px;
+  width: 250px;
+  height: 36px;
+  margin: 10px 0;
+}
+
+select {
+  margin-top: 1rem;
+  width: 250px;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  color: lightgray;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.request {
+  margin-top: 12px;
+  color: gray;
+  font-size: 0.6rem;
+  display: flex;
+}
+
+.request span {
+  margin: 0 0.5rem;
+}
+
+h6 {
+  margin: -5px;
+  padding: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1080px) {
+  body {
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .product {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+  }
+  .wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body {
+    font-size: 12px;
+    margin: 0 auto;
+  }
+}
