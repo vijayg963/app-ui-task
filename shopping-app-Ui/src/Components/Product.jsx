@@ -13,7 +13,7 @@ function Product() {
   return (
     <div className='product'>
       <div className='flex'>
-        <div className='flex-col'>
+        <div className='flex-col hide-s'>
           {imgArray.map((img) => (
             <span className='small-img'>
               <img width={61} src={`/product1/${img}`} alt={img} />

@@ -18,10 +18,14 @@ function App() {
             <div className='flex wrap'>
               <Card />
               <Card />
-              <Card />
+              <div className='hide-s'>
+                <Card />
+              </div>
             </div>
             <div className='flex wrap'>
-              <Condition />
+              <div className='hide-s'>
+                <Condition />
+              </div>
               <Offer />
             </div>
           </div>

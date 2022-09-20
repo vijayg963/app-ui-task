@@ -330,11 +330,20 @@ h6 {
     display: flex;
     flex-wrap: wrap;
   }
+  .hide {
+    display: none;
+  }
+  .flex {
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 720px) {
   body {
     font-size: 12px;
     margin: 0 auto;
+  }
+  .hide-s {
+    display: none;
   }
 }

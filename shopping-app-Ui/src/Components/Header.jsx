@@ -5,7 +5,7 @@ function Header() {
   return (
     <div>
       <header className='flex'>
-        <span className='logo'>
+        <span className='logo hide-s'>
           LO<strong>go</strong>
         </span>
         <span className='set-icons menu'>
@@ -16,7 +16,7 @@ function Header() {
           <img src='header/Location-s.png' alt='location' />
           Location
         </span>
-        <div className='set-icons search-bar'>
+        <div className='set-icons search-bar hide'>
           <span className='filter'>
             <img src='header/Filter-s.png' alt='filter' />
           </span>
@@ -40,7 +40,7 @@ function Header() {
         <span>
           <img src='header/bag (2).png' alt='beg' />
         </span>
-        <div className='profile'>
+        <div className='profile hide-s'>
           <img src='header/michael-s.png' alt='martha' />
           <p>Hi Martha</p>
         </div>
