@@ -359,6 +359,11 @@ h6 {
     font-size: 0;
   }
 
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
   header .logo-main img {
     padding: 5px;
     width: 130px;
@@ -367,5 +372,15 @@ h6 {
 
   header .logo-main strong {
     font-size: 2rem;
+  }
+
+  .offer h3 {
+    position: absolute;
+    font-size: 1.2rem;
+    right: 30px;
+    background-color: white;
+    display: inline-block;
+    top: 0;
+    padding: 1.5rem;
   }
 }
