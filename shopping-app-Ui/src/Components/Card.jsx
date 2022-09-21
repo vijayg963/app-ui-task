@@ -17,7 +17,7 @@ function Card() {
         <span className='heart'>
           <img width={20} src='heart-s.png' alt='heart' />
         </span>
-        <img width={215} src='cs.png' alt='cs-phone' />
+        <img width={225} src='cs.png' alt='cs-phone' />
       </div>
       <h4>SAMSUNG Galaxt S20 FE 5G Factory Unlocked Android Cell</h4>
       <p className='small'>Your Price</p>

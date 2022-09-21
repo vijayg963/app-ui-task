@@ -12,7 +12,19 @@ function Header() {
           <img src='header/menu-s.png' alt='menu' />
           Menu
         </span>
-        <span className='set-icons'>
+
+        <span className='logo-main display'>
+          <img width={200} height={50} src='Koboldo_logo@2x.png' alt='logo' />
+        </span>
+        <span className='road-show display'>
+          <strong>
+            <RiVideoAddLine />
+          </strong>
+        </span>
+        <span className='display'>
+          <img src='header/Search-s.png' alt='search' />
+        </span>
+        <span className='set-icons hide-s'>
           <img src='header/Location-s.png' alt='location' />
           Location
         </span>
@@ -28,16 +40,16 @@ function Header() {
             <img className='closing' src='header/Close (2).png' alt='close' />
           </div>
         </div>
-        <span className='road-show'>
+        <span className='road-show hide-s'>
           <strong>
             <RiVideoAddLine />
           </strong>
           Road Shows
         </span>
-        <span>
+        <span className='hide-s'>
           <img src='header/Trending-s.png' alt='trending' />
         </span>
-        <span>
+        <span className='hide-s'>
           <img src='header/bag (2).png' alt='beg' />
         </span>
         <div className='profile hide-s'>

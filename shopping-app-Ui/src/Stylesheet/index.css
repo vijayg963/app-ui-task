@@ -315,6 +315,10 @@ h6 {
   flex-direction: column;
 }
 
+.display {
+  display: none;
+}
+
 @media screen and (max-width: 1080px) {
   body {
     font-size: 14px;
@@ -334,7 +338,7 @@ h6 {
     display: none;
   }
   .flex {
-    justify-content: center;
+    justify-content: space-evenly;
   }
 }
 
@@ -345,5 +349,23 @@ h6 {
   }
   .hide-s {
     display: none;
+  }
+
+  .display {
+    display: block;
+  }
+
+  .menu {
+    font-size: 0;
+  }
+
+  header .logo-main img {
+    padding: 5px;
+    width: 130px;
+    height: 35px;
+  }
+
+  header .logo-main strong {
+    font-size: 2rem;
   }
 }
